@@ -468,15 +468,11 @@ while True:
 
 								
 
-						elif msg.get("text").startswith("لینک") or msg.get("text").startswith("link"):
+						
 
-							try:
+							
 
-								bot.sendMessage(target, "https://rubika.ir/joing/CAFDBBDH0YRBYHPEPOYXQZAYVXJSJCHD", message_id=msg.get("message_id"))
-
-							except:
-
-								print("err CheKhabar")		
+		
 
 								
 
